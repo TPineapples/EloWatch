@@ -69,7 +69,7 @@ def checkBattleTagForm(tag):
     uTag = tag.split('#')[0]
     uNum = tag.split('#')[1]
 
-    if uTag[0][0].isalpha() and uTag.isalnum() and uNum.isnumeric() and len(uNum) == 4:  # BattleTag
+    if uTag[0][0].isalpha() and uTag.isalnum() and uNum.isnumeric() and len(uNum) >= 4:  # BattleTag
         return True, uTag, uNum
 
     return False, None, None
