@@ -8,7 +8,7 @@ What you get is their Rank, Competitive Hours Played, Total Competitive Games Pl
 
 ## How do I install this
 1. You first need the [requests](http://docs.python-requests.org/en/master/#) library. (pip install requests or follow the instructions on their site)
-2. git clone this repo
+2. git clone this repo (Or atleast download EloWatch.py)
 3. Run EloWatch.py in your desired terminal / interpreter
 4. Enjoy!
 
